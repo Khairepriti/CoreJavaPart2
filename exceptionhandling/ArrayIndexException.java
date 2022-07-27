@@ -1,0 +1,21 @@
+package com.java.exceptionhandling;
+
+public class ArrayIndexException {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		try {
+			int a[]=new int[5];
+			a[7]=21;
+			System.out.println(	"My Array Element "+a[2]);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e);
+		}
+		
+
+	}
+
+}
